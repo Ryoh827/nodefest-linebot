@@ -1,0 +1,25 @@
+{
+  "name": "nodefest-linebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "now -e CHANNEL_SECRET=@channel-secret -e CHANNEL_ACCESS_TOKEN=@channel-access-token",
+    "lint": "eslint server.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.4.0",
+    "express": "^4.16.4",
+    "kuromoji": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "now": "^12.1.5"
+  },
+  "env": {
+    "CHANNEL_SECRET": "@channel-secret",
+    "CHANNEL_ACCESS_TOKEN": "@channel-access-token"
+  }
+}
