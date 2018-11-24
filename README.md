@@ -13,5 +13,4 @@ yarn deploy
 |Variable|LINE Developers|
 |:--|:--|
 |CHANNEL_SECRET|Channel Secret|
-|CHANNEL_ACCESS_TOKEN|アクセストークン
-（ロングターム）|
+|CHANNEL_ACCESS_TOKEN|アクセストークン（ロングターム）|
